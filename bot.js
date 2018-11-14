@@ -860,6 +860,61 @@ client30.on("message", message => {
 
 
 
+client1.on("message", message => {
+    if(message.content === `${prefixa1}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+client2.on("message", message => {
+    if(message.content === `${prefixa1}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+client3.on("message", message => {
+    if(message.content === `${prefixa1}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+client4.on("message", message => {
+    if(message.content === `${prefixa1}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+client5.on("message", message => {
+    if(message.content === `${prefixa1}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+
+
+
+
+client6.on("message", message => {
+    if(message.content === `${prefixa2}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+client7.on("message", message => {
+    if(message.content === `${prefixa2}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+client8.on("message", message => {
+    if(message.content === `${prefixa2}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+client9.on("message", message => {
+    if(message.content === `${prefixa2}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+client10.on("message", message => {
+    if(message.content === `${prefixa2}s`) {
+        message.channel.send(`pls search`)
+    }
+});
+
 
 
 
