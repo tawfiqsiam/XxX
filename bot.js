@@ -100,218 +100,74 @@ client29.on("ready", async() => {console.log(` _ ${client29.user.username} _ is 
 client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ is Ready`)});
 
 client1.on("ready", () => {
-let channel =     client1.channels.get("509751890519785495")
+let channel =     client1.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client2.on("ready", () => {
-let channel =     client2.channels.get("509751890519785495")
+let channel =     client2.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client3.on("ready", () => {
-let channel =     client3.channels.get("509751890519785495")
+let channel =     client3.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client4.on("ready", () => {
-let channel =     client4.channels.get("509751890519785495")
+let channel =     client4.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client5.on("ready", () => {
-let channel =     client5.channels.get("509751890519785495")
+let channel =     client5.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client6.on("ready", () => {
-let channel =     client6.channels.get("509751890519785495")
+let channel =     client6.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client7.on("ready", () => {
-let channel =     client7.channels.get("509751890519785495")
+let channel =     client7.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client8.on("ready", () => {
-let channel =     client8.channels.get("509751890519785495")
+let channel =     client8.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client9.on("ready", () => {
-let channel =     client9.channels.get("509751890519785495")
+let channel =     client9.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client10.on("ready", () => {
-let channel =     client10.channels.get("509751890519785495")
+let channel =     client10.channels.get(" 512307708389490689")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
-
-client11.on("ready", () => {
-let channel =     client11.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client12.on("ready", () => {
-let channel =     client12.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client13.on("ready", () => {
-let channel =     client13.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client14.on("ready", () => {
-let channel =     client14.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client15.on("ready", () => {
-let channel =     client15.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client16.on("ready", () => {
-let channel =     client16.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client17.on("ready", () => {
-let channel =     client17.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client18.on("ready", () => {
-let channel =     client18.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client19.on("ready", () => {
-let channel =     client19.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client20.on("ready", () => {
-let channel =     client20.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client21.on("ready", () => {
-let channel =     client2.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client22.on("ready", () => {
-let channel =     client22.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client23.on("ready", () => {
-let channel =     client23.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client24.on("ready", () => {
-let channel =     client24.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client25.on("ready", () => {
-let channel =     client25.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client26.on("ready", () => {
-let channel =     client26.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`#free_PS`);
-}, 25)
-});
-client27.on("ready", () => {
-let channel =     client27.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`YES YES`);
-}, 25)
-});
-client28.on("ready", () => {
-let channel =     client28.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Im With You Bro!`);
-}, 25)
-});
-client29.on("ready", () => {
-let channel =     client29.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`god bless you`);
-}, 25)
-});
-client30.on("ready", () => {
-let channel =     client30.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-
-
-
-
-
-
-
 
 
 
@@ -1386,23 +1242,3 @@ client7.login(process.env.BOT_TOKEN7)
 client8.login(process.env.BOT_TOKEN8)
 client9.login(process.env.BOT_TOKEN9)
 client10.login(process.env.BOT_TOKEN10)
-client11.login(process.env.BOT_TOKEN11)
-client12.login(process.env.BOT_TOKEN12)
-client13.login(process.env.BOT_TOKEN13)
-client14.login(process.env.BOT_TOKEN14)
-client15.login(process.env.BOT_TOKEN15)
-client16.login(process.env.BOT_TOKEN16)
-client17.login(process.env.BOT_TOKEN17)
-client18.login(process.env.BOT_TOKEN18)
-client19.login(process.env.BOT_TOKEN19)
-client20.login(process.env.BOT_TOKEN20)
-client21.login(process.env.BOT_TOKEN21)
-client22.login(process.env.BOT_TOKEN22)
-client23.login(process.env.BOT_TOKEN23)
-client24.login(process.env.BOT_TOKEN24)
-client25.login(process.env.BOT_TOKEN25)
-client26.login(process.env.BOT_TOKEN26)
-client27.login(process.env.BOT_TOKEN27)
-client28.login(process.env.BOT_TOKEN28)
-client29.login(process.env.BOT_TOKEN29)
-client30.login(process.env.BOT_TOKEN30)
