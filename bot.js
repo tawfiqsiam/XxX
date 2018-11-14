@@ -109,63 +109,63 @@ channel.send(`Starspam bot working to get dolors just to help star so send your 
 client2.on("ready", () => {
 let channel =     client2.channels.get("512307708389490689")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`pls search`);
 }, 25)
 });
 
 client3.on("ready", () => {
 let channel =     client3.channels.get("512307708389490689")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`pls search`);
 }, 25)
 });
 
 client4.on("ready", () => {
 let channel =     client4.channels.get("512307708389490689")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`pls search`);
 }, 25)
 });
 
 client5.on("ready", () => {
 let channel =     client5.channels.get("512307708389490689")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`pls search`);
 }, 25)
 });
 
 client6.on("ready", () => {
 let channel =     client6.channels.get("512307708389490689")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`pls search`);
 }, 25)
 });
 
 client7.on("ready", () => {
 let channel =     client7.channels.get("512307708389490689")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`pls search`);
 }, 25)
 });
 
 client8.on("ready", () => {
 let channel =     client8.channels.get("512307708389490689")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`pls search`);
 }, 25)
 });
 
 client9.on("ready", () => {
 let channel =     client9.channels.get("512307708389490689")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`pls search`);
 }, 25)
 });
 
 client10.on("ready", () => {
 let channel =     client10.channels.get("512307708389490689")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`pls search`);
 }, 25)
 });
 
