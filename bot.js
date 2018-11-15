@@ -100,28 +100,7 @@ client29.on("ready", async() => {console.log(` _ ${client29.user.username} _ is 
 client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ is Ready`)});
 
 client1.on("ready", () => {
-let channel =     client1.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client2.on("ready", () => {
-let channel =     client2.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client3.on("ready", () => {
-let channel =     client3.channels.get("509751890519785495")
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
-
-client4.on("ready", () => {
-let channel =     client4.channels.get("509751890519785495")
+let channel =     client1.channels.get("512718183828815875")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
@@ -1183,6 +1162,3 @@ client30.on("message", message => {
 
 
 client1.login(process.env.BOT_TOKEN1)
-client2.login(process.env.BOT_TOKEN2)
-client3.login(process.env.BOT_TOKEN3)
-client4.login(process.env.BOT_TOKEN4)
