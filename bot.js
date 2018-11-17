@@ -11,7 +11,7 @@ client1.on("ready", async() => {console.log(` _ ${client1.user.username} _ is Re
 client1.on("ready", () => {
 let channel =     client1.channels.get("512718183828815875")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star 1`);
 }, 25)
 });
 
