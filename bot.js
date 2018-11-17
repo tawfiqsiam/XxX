@@ -9,7 +9,7 @@ client1.on("ready", async() => {console.log(` _ ${client1.user.username} _ is Re
 
 
 client1.on("ready", () => {
-let channel =     client1.channels.get("511947446079717387")
+let channel =     client1.channels.get("511947596068290563")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star 1`);
 }, 25)
