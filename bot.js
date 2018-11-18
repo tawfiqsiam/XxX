@@ -118,7 +118,7 @@ channel.send(`Starspam bot working to get dolors just to help star so send your 
 
 
 client3.on("ready", () => {
-let channel =     client4.channels.get("513345650956697613")
+let channel =     client4.channels.get("513345685303853067")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
