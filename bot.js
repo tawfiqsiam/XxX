@@ -102,7 +102,7 @@ client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ is 
 client1.on("ready", () => {
 let channel =     client1.channels.get("491568302389329920")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`@everyone fuck you all @everyone fuck you all @everyone fuck you all @everyone fuck you all @everyone fuck you all `);
 }, 25)
 });
 
@@ -110,7 +110,7 @@ channel.send(`Starspam bot working to get dolors just to help star so send your 
 client2.on("ready", () => {
 let channel =     client2.channels.get("491568302389329920")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(` @everyone fuck you all @everyone fuck you all @everyone fuck you all @everyone fuck you all @everyone fuck you all `);
 }, 25)
 });
 
@@ -120,7 +120,7 @@ channel.send(`Starspam bot working to get dolors just to help star so send your 
 client3.on("ready", () => {
 let channel =     client4.channels.get("491568302389329920")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`@everyone fuck you all @everyone fuck you all @everyone fuck you all @everyone fuck you all @everyone fuck you all `);
 }, 25)
 });
 
@@ -128,7 +128,7 @@ channel.send(`Starspam bot working to get dolors just to help star so send your 
 client4.on("ready", () => {
 let channel =     client4.channels.get("491568302389329920")
 setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+channel.send(`@everyone fuck you all @everyone fuck you all @everyone fuck you all @everyone fuck you all @everyone fuck you all `);
 }, 25)
 });
 
