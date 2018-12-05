@@ -78,26 +78,7 @@ client7.on("ready", async() => {console.log(` _ ${client7.user.username} _ is Re
 client8.on("ready", async() => {console.log(` _ ${client8.user.username} _ is Ready`)});
 client9.on("ready", async() => {console.log(` _ ${client9.user.username} _ is Ready`)});
 client10.on("ready", async() => {console.log(` _ ${client10.user.username} _ is Ready`)});
-client11.on("ready", async() => {console.log(` _ ${client11.user.username} _ is Ready`)});
-client12.on("ready", async() => {console.log(` _ ${client12.user.username} _ is Ready`)});
-client13.on("ready", async() => {console.log(` _ ${client13.user.username} _ is Ready`)});
-client14.on("ready", async() => {console.log(` _ ${client14.user.username} _ is Ready`)});
-client15.on("ready", async() => {console.log(` _ ${client15.user.username} _ is Ready`)});
-client16.on("ready", async() => {console.log(` _ ${client16.user.username} _ is Ready`)});
-client17.on("ready", async() => {console.log(` _ ${client17.user.username} _ is Ready`)});
-client18.on("ready", async() => {console.log(` _ ${client18.user.username} _ is Ready`)});
-client19.on("ready", async() => {console.log(` _ ${client19.user.username} _ is Ready`)});
-client20.on("ready", async() => {console.log(` _ ${client20.user.username} _ is Ready`)});
-client21.on("ready", async() => {console.log(` _ ${client21.user.username} _ is Ready`)});
-client22.on("ready", async() => {console.log(` _ ${client22.user.username} _ is Ready`)});
-client23.on("ready", async() => {console.log(` _ ${client23.user.username} _ is Ready`)});
-client24.on("ready", async() => {console.log(` _ ${client24.user.username} _ is Ready`)});
-client25.on("ready", async() => {console.log(` _ ${client25.user.username} _ is Ready`)});
-client26.on("ready", async() => {console.log(` _ ${client26.user.username} _ is Ready`)});
-client27.on("ready", async() => {console.log(` _ ${client27.user.username} _ is Ready`)});
-client28.on("ready", async() => {console.log(` _ ${client28.user.username} _ is Ready`)});
-client29.on("ready", async() => {console.log(` _ ${client29.user.username} _ is Ready`)});
-client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ is Ready`)});
+
 
 client1.on("ready", () => {
 let channel =     client1.channels.get("514073598764384258")
