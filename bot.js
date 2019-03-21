@@ -100,7 +100,7 @@ client29.on("ready", async() => {console.log(` _ ${client29.user.username} _ is 
 client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ is Ready`)});
 
 client1.on("ready", () => {
-let channel =     client2.channels.get("556388194015379468")
+let channel =     client2.channels.get("558411284320747540")
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
