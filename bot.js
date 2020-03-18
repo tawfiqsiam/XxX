@@ -29,12 +29,17 @@ const client27 = new Discord.Client()
 const client28 = new Discord.Client()
 const client29 = new Discord.Client()
 const client30 = new Discord.Client()
-var prefixa1 = "a1"
-var prefixa2 = "a2"
-var prefixa3 = "a3"
-var prefixa4 = "a4"
-var prefixa5 = "a5"
-var prefixa6 = "a6"
+const client31 = new Discord.Client()
+const client32 = new Discord.Client()
+const client33 = new Discord.Client()
+const client34 = new Discord.Client()
+const client35 = new Discord.Client()
+const client36 = new Discord.Client()
+const client37 = new Discord.Client()
+const client37 = new Discord.Client()
+const client38 = new Discord.Client()
+const client39 = new Discord.Client()
+const client40 = new Discord.Client()
 var prefix1 = "1"
 var prefix2 = "2"
 var prefix3 = "3"
@@ -65,26 +70,36 @@ var prefix27 = "27"
 var prefix28 = "28"
 var prefix29 = "29"
 var prefix30 = "30"
+var prefix31 = "31"
+var prefix32 = "32"
+var prefix33 = "33"
+var prefix34 = "34"
+var prefix35 = "35"
+var prefix36 = "36"
+var prefix37 = "37"
+var prefix38 = "38"
+var prefix39 = "39"
+var prefix40 = "40"
 
 
 
-client1.on("ready", async() => {console.log(` _ ${client1.user.username} _ is Ready`)});
-client2.on("ready", async() => {console.log(` _ ${client2.user.username} _ is Ready`)});
-client3.on("ready", async() => {console.log(` _ ${client3.user.username} _ is Ready`)});
-client4.on("ready", async() => {console.log(` _ ${client4.user.username} _ is Ready`)});
-client5.on("ready", async() => {console.log(` _ ${client5.user.username} _ is Ready`)});
-client6.on("ready", async() => {console.log(` _ ${client6.user.username} _ is Ready`)});
-client7.on("ready", async() => {console.log(` _ ${client7.user.username} _ is Ready`)});
-client8.on("ready", async() => {console.log(` _ ${client8.user.username} _ is Ready`)});
-client9.on("ready", async() => {console.log(` _ ${client9.user.username} _ is Ready`)});
-client10.on("ready", async() => {console.log(` _ ${client10.user.username} _ is Ready`)});
-client11.on("ready", async() => {console.log(` _ ${client11.user.username} _ is Ready`)});
-client12.on("ready", async() => {console.log(` _ ${client12.user.username} _ is Ready`)});
-client13.on("ready", async() => {console.log(` _ ${client13.user.username} _ is Ready`)});
-client14.on("ready", async() => {console.log(` _ ${client14.user.username} _ is Ready`)});
-client15.on("ready", async() => {console.log(` _ ${client15.user.username} _ is Ready`)});
-client16.on("ready", async() => {console.log(` _ ${client16.user.username} _ is Ready`)});
-client17.on("ready", async() => {console.log(` _ ${client17.user.username} _ is Ready`)});
+client1.on("ready", async() => {console.log(` _ ${client1.user.username} _ 1 is Ready`)});
+client2.on("ready", async() => {console.log(` _ ${client2.user.username} _ 2 is Ready`)});
+client3.on("ready", async() => {console.log(` _ ${client3.user.username} _ 3 is Ready`)});
+client4.on("ready", async() => {console.log(` _ ${client4.user.username} _ 4 is Ready`)});
+client5.on("ready", async() => {console.log(` _ ${client5.user.username} _ 5 is Ready`)});
+client6.on("ready", async() => {console.log(` _ ${client6.user.username} _ 6 is Ready`)});
+client7.on("ready", async() => {console.log(` _ ${client7.user.username} _ 7 is Ready`)});
+client8.on("ready", async() => {console.log(` _ ${client8.user.username} _ 8 is Ready`)});
+client9.on("ready", async() => {console.log(` _ ${client9.user.username} _ 9 is Ready`)});
+client10.on("ready", async() => {console.log(` _ ${client10.user.username} _ 10 is Ready`)});
+client11.on("ready", async() => {console.log(` _ ${client11.user.username} _ 11 is Ready`)});
+client12.on("ready", async() => {console.log(` _ ${client12.user.username} _ 12 is Ready`)});
+client13.on("ready", async() => {console.log(` _ ${client13.user.username} _ 13 is Ready`)});
+client14.on("ready", async() => {console.log(` _ ${client14.user.username} _ 14 is Ready`)});
+client15.on("ready", async() => {console.log(` _ ${client15.user.username} _ 15 is Ready`)});
+client16.on("ready", async() => {console.log(` _ ${client16.user.username} _ 16 is Ready`)});
+client17.on("ready", async() => {console.log(` _ ${client17.user.username} _ 17is Ready`)});
 client18.on("ready", async() => {console.log(` _ ${client18.user.username} _ is Ready`)});
 client19.on("ready", async() => {console.log(` _ ${client19.user.username} _ is Ready`)});
 client20.on("ready", async() => {console.log(` _ ${client20.user.username} _ is Ready`)});
@@ -100,119 +115,119 @@ client29.on("ready", async() => {console.log(` _ ${client29.user.username} _ is 
 client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ is Ready`)});
 
 client1.on("ready", () => {
-let channel =     client2.channels.get("558411284320747540")
+let channel =     client2.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client2.on("ready", () => {
-let channel =     client2.channels.get("556388194015379468")
+let channel =     client2.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client3.on("ready", () => {
-let channel =     client3.channels.get("556388194015379468")
+let channel =     client3.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client4.on("ready", () => {
-let channel =     client4.channels.get("556388194015379468")
+let channel =     client4.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client5.on("ready", () => {
-let channel =     client5.channels.get("556388194015379468")
+let channel =     client5.channels.get("process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client6.on("ready", () => {
-let channel =     client6.channels.get("556388194015379468")
+let channel =     client6.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client7.on("ready", () => {
-let channel =     client7.channels.get("556388194015379468")
+let channel =     client7.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client8.on("ready", () => {
-let channel =     client8.channels.get("556388194015379468")
+let channel =     client8.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client9.on("ready", () => {
-let channel =     client9.channels.get("556388194015379468")
+let channel =     client9.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client10.on("ready", () => {
-let channel =     client10.channels.get("556388194015379468")
+let channel =     client10.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client11.on("ready", () => {
-let channel =     client11.channels.get("556388194015379468")
+let channel =     client11.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client12.on("ready", () => {
-let channel =     client12.channels.get("556388194015379468")
+let channel =     client12.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client13.on("ready", () => {
-let channel =     client13.channels.get("556388194015379468")
+let channel =     client13.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client14.on("ready", () => {
-let channel =     client14.channels.get("556388194015379468")
+let channel =     client14.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client15.on("ready", () => {
-let channel =     client15.channels.get("556388194015379468")
+let channel =     client15.channels.get("process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client16.on("ready", () => {
-let channel =     client16.channels.get("556388194015379468")
+let channel =     client16.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client17.on("ready", () => {
-let channel =     client17.channels.get("556388194015379468")
+let channel =     client17.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
@@ -226,80 +241,147 @@ channel.send(`Starspam bot working to get dolors just to help star so send your 
 });
 
 client19.on("ready", () => {
-let channel =     client19.channels.get("556388194015379468")
+let channel =     client19.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client20.on("ready", () => {
-let channel =     client20.channels.get("556388194015379468")
+let channel =     client20.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client21.on("ready", () => {
-let channel =     client2.channels.get("556388194015379468")
+let channel =     client2.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client22.on("ready", () => {
-let channel =     client22.channels.get("556388194015379468")
+let channel =     client22.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client23.on("ready", () => {
-let channel =     client23.channels.get("556388194015379468")
+let channel =     client23.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client24.on("ready", () => {
-let channel =     client24.channels.get("556388194015379468")
+let channel =     client24.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client25.on("ready", () => {
-let channel =     client25.channels.get("556388194015379468")
+let channel =     client25.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
 });
 
 client26.on("ready", () => {
-let channel =     client26.channels.get("556388194015379468")
+let channel =     client26.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`#free_PS`);
 }, 25)
 });
 client27.on("ready", () => {
-let channel =     client27.channels.get("556388194015379468")
+let channel =     client27.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`YES YES`);
 }, 25)
 });
 client28.on("ready", () => {
-let channel =     client28.channels.get("556388194015379468")
+let channel =     client28.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Im With You Bro!`);
 }, 25)
 });
 client29.on("ready", () => {
-let channel =     client29.channels.get("556388194015379468")
+let channel =     client29.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`god bless you`);
 }, 25)
 });
 client30.on("ready", () => {
-let channel =     client30.channels.get("556388194015379468")
+let channel =     client30.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+
+client31.on("ready", () => {
+let channel =     client31.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client32.on("ready", () => {
+let channel =     client32.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client32.on("ready", () => {
+let channel =     client32.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client33.on("ready", () => {
+let channel =     client33.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client34.on("ready", () => {
+let channel =     client34.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client35.on("ready", () => {
+let channel =     client35.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client36.on("ready", () => {
+let channel =     client36.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client37.on("ready", () => {
+let channel =     client37.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client38.on("ready", () => {
+let channel =     client38.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client39.on("ready", () => {
+let channel =     client39.channels.get(process.env.CHANNEL)
+setInterval(function() {
+channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
+}, 25)
+});
+client40.on("ready", () => {
+let channel =     client40.channels.get(process.env.CHANNEL)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 25)
@@ -340,27 +422,27 @@ channel.send(`Starspam bot working to get dolors just to help star so send your 
 
 
 client1.on("message", message => {
-    if(message.content === `${prefixa1}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client2.on("message", message => {
-    if(message.content === `${prefixa1}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client3.on("message", message => {
-    if(message.content === `${prefixa1}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client4.on("message", message => {
-    if(message.content === `${prefixa1}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client5.on("message", message => {
-    if(message.content === `${prefixa1}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
@@ -369,27 +451,27 @@ client5.on("message", message => {
 
 
 client6.on("message", message => {
-    if(message.content === `${prefixa2}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client7.on("message", message => {
-    if(message.content === `${prefixa2}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client8.on("message", message => {
-    if(message.content === `${prefixa2}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client9.on("message", message => {
-    if(message.content === `${prefixa2}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client10.on("message", message => {
-    if(message.content === `${prefixa2}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
@@ -398,27 +480,27 @@ client10.on("message", message => {
 
 
 client11.on("message", message => {
-    if(message.content === `${prefixa3}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client12.on("message", message => {
-    if(message.content === `${prefixa3}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client13.on("message", message => {
-    if(message.content === `${prefixa3}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client14.on("message", message => {
-    if(message.content === `${prefixa3}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client15.on("message", message => {
-    if(message.content === `${prefixa3}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
@@ -427,27 +509,27 @@ client15.on("message", message => {
 
 
 client16.on("message", message => {
-    if(message.content === `${prefixa4}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client17.on("message", message => {
-    if(message.content === `${prefixa4}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client18.on("message", message => {
-    if(message.content === `${prefixa4}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client19.on("message", message => {
-    if(message.content === `${prefixa4}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client20.on("message", message => {
-    if(message.content === `${prefixa4}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
@@ -456,27 +538,27 @@ client20.on("message", message => {
 
 
 client21.on("message", message => {
-    if(message.content === `${prefixa5}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client22.on("message", message => {
-    if(message.content === `${prefixa5}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client23.on("message", message => {
-    if(message.content === `${prefixa5}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client24.on("message", message => {
-    if(message.content === `${prefixa5}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client25.on("message", message => {
-    if(message.content === `${prefixa5}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
@@ -485,190 +567,99 @@ client25.on("message", message => {
 
 
 client26.on("message", message => {
-    if(message.content === `${prefixa6}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client27.on("message", message => {
-    if(message.content === `${prefixa6}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client28.on("message", message => {
-    if(message.content === `${prefixa6}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client29.on("message", message => {
-    if(message.content === `${prefixa6}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client30.on("message", message => {
-    if(message.content === `${prefixa6}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-
-
-
-
-
-
-
-
-
-
-client1.on("message", message => {
-    if(message.content === `${prefix1}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client2.on("message", message => {
-    if(message.content === `${prefix2}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client3.on("message", message => {
-    if(message.content === `${prefix3}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client4.on("message", message => {
-    if(message.content === `${prefix4}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client5.on("message", message => {
-    if(message.content === `${prefix5}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client6.on("message", message => {
-    if(message.content === `${prefix6}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client7.on("message", message => {
-    if(message.content === `${prefix7}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client8.on("message", message => {
-    if(message.content === `${prefix8}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client9.on("message", message => {
-    if(message.content === `${prefix9}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client10.on("message", message => {
-    if(message.content === `${prefix10}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client11.on("message", message => {
-    if(message.content === `${prefix11}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client12.on("message", message => {
-    if(message.content === `${prefix12}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client13.on("message", message => {
-    if(message.content === `${prefix13}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client14.on("message", message => {
-    if(message.content === `${prefix14}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client15.on("message", message => {
-    if(message.content === `${prefix15}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client16.on("message", message => {
-    if(message.content === `${prefix16}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client17.on("message", message => {
-    if(message.content === `${prefix17}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client18.on("message", message => {
-    if(message.content === `${prefix18}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client19.on("message", message => {
-    if(message.content === `${prefix19}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client20.on("message", message => {
-    if(message.content === `${prefix20}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client21.on("message", message => {
-    if(message.content === `${prefix21}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client22.on("message", message => {
-    if(message.content === `${prefix22}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client23.on("message", message => {
-    if(message.content === `${prefix23}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client24.on("message", message => {
-    if(message.content === `${prefix24}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client25.on("message", message => {
-    if(message.content === `${prefix25}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client26.on("message", message => {
-    if(message.content === `${prefix26}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client27.on("message", message => {
-    if(message.content === `${prefix27}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client28.on("message", message => {
-    if(message.content === `${prefix28}d`) {
-        message.channel.send(`#daily`)
-    }
-});
-client29.on("message", message => {
-    if(message.content === `${prefix29}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
 client30.on("message", message => {
-    if(message.content === `${prefix30}d`) {
+    if(message.content === `d`) {
         message.channel.send(`#daily`)
     }
 });
+client31.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client32.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client33.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client34.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client35.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client35.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client36.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client37.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client38.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+
+client39.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+
+client40.on("message", message => {
+    if(message.content === `d`) {
+        message.channel.send(`#daily`)
+    }
+});
+
+
+
+
+
+
+
 
 
 
@@ -844,163 +835,60 @@ client30.on("message", message => {
     if(message.content === `${prefixa6}c`) {
         message.channel.send(`#credits`)
     }
-});
-
-
-
-
-
-
-client1.on("message", message => {
-    if(message.content === `${prefix1}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client2.on("message", message => {
-    if(message.content === `${prefix2}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client3.on("message", message => {
-    if(message.content === `${prefix3}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client4.on("message", message => {
-    if(message.content === `${prefix4}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client5.on("message", message => {
-    if(message.content === `${prefix5}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client6.on("message", message => {
-    if(message.content === `${prefix6}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client7.on("message", message => {
+}); 
+client31.on("message", message => {
     if(message.content === `${prefix7}c`) {
         message.channel.send(`#credits`)
     }
 });
-client8.on("message", message => {
+client32.on("message", message => {
+    if(message.content === `${prefix7}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client33.on("message", message => {
+    if(message.content === `${prefix7}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client34.on("message", message => {
+    if(message.content === `${prefix7}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client35.on("message", message => {
+    if(message.content === `${prefix7}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client36.on("message", message => {
     if(message.content === `${prefix8}c`) {
         message.channel.send(`#credits`)
     }
 });
-client9.on("message", message => {
-    if(message.content === `${prefix9}c`) {
+client37.on("message", message => {
+    if(message.content === `${prefix8}c`) {
         message.channel.send(`#credits`)
     }
 });
-client10.on("message", message => {
-    if(message.content === `${prefix10}c`) {
+client38.on("message", message => {
+    if(message.content === `${prefix8}c`) {
         message.channel.send(`#credits`)
     }
 });
-client11.on("message", message => {
-    if(message.content === `${prefix11}c`) {
+client39.on("message", message => {
+    if(message.content === `${prefix8}c`) {
         message.channel.send(`#credits`)
     }
 });
-client12.on("message", message => {
-    if(message.content === `${prefix12}c`) {
+client40.on("message", message => {
+    if(message.content === `${prefix8}c`) {
         message.channel.send(`#credits`)
     }
 });
-client13.on("message", message => {
-    if(message.content === `${prefix13}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client14.on("message", message => {
-    if(message.content === `${prefix14}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client15.on("message", message => {
-    if(message.content === `${prefix15}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client16.on("message", message => {
-    if(message.content === `${prefix16}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client17.on("message", message => {
-    if(message.content === `${prefix17}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client18.on("message", message => {
-    if(message.content === `${prefix18}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client19.on("message", message => {
-    if(message.content === `${prefix19}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client20.on("message", message => {
-    if(message.content === `${prefix20}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client21.on("message", message => {
-    if(message.content === `${prefix21}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client22.on("message", message => {
-    if(message.content === `${prefix22}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client23.on("message", message => {
-    if(message.content === `${prefix23}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client24.on("message", message => {
-    if(message.content === `${prefix24}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client25.on("message", message => {
-    if(message.content === `${prefix25}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client26.on("message", message => {
-    if(message.content === `${prefix26}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client27.on("message", message => {
-    if(message.content === `${prefix27}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client28.on("message", message => {
-    if(message.content === `${prefix28}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client29.on("message", message => {
-    if(message.content === `${prefix29}c`) {
-        message.channel.send(`#credits`)
-    }
-});
-client30.on("message", message => {
-    if(message.content === `${prefix30}c`) {
-        message.channel.send(`#credits`)
-    }
-});
+
+
+
 
 
 
