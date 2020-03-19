@@ -171,7 +171,7 @@ client40.on("ready", async() => {console.log(` _ ${client30.user.username} _ 40 
 //انا بفضل انك ما تلعب بالسرعة
 
 client1.on("ready", () => {
-let channel =     client2.channels.get(process.env.CHANNEL1)
+let channel =     client1.channels.get(process.env.CHANNEL1)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
 }, 2500)
