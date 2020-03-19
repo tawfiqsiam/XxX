@@ -1,3 +1,28 @@
+//الكود بالكامل مكتوب ع الجوال لانه ما عندي pc 
+//اذا في يوم ضيعت حسابي و حبيت تحكي معي تقدر تلاقيني ع ذا gmail
+//star3bot3@gmail.com 
+//////////////////////شرح عن الاكواد
+//الاكواد هاي مش مفروض انها تنشر او تنباع او تتداول باي طريقة
+//الاكواد منظمة بشكل محترم عشان يسهل عليك التعامل معها في حال حدوث خطاء
+// اذا بتحب تضيف بوت جديد انا معطيككيف تضيف البوت في مواقع مختلفة
+////////////////////طريقة التشغيل
+//1 ما بلزم انه يكون معك 40 بوت عشان يتشغل الكود 
+//لا تنسى تشغل التوكنات ع الخادم
+//BOT_TOKEN1الى BOT_TOKEN40
+//لا تنسى تحدد الروم يلي تبي البوت يرسل فيها 
+//CHANNEL1 الى CHANNEL8
+//كل 5 بوتات موزعين على مجموعة بطلب من حمد
+//////////////// الاوامر
+//اكتب d عشان تاخذ الراتب اليومي
+//1c 2c 3c 4c 5c 6c 7c 8c لفحص الكرديت
+//تم تقسيم كل 5 بوتات في مجموعة
+//(1-40)say عشان البوت يبعت رسالة انت تبيها
+//في حال بدك تاخذ كرديت من البوتات قفل الشاتات يلي البوتات برسلو فيها صدقني احسن طريقة 
+//تقدر تسدخدم ذا الامر يوم بدك تبعت كرديت
+//asay عشان جميع البوتات تبعت. رسالة انت تبيها
+//يستخدم لعمل امر مشترك نا بحتاج تأكيد مثل الكرديت
+//مثلا rep or profile or credit
+
 const Discord = require("discord.js");
 const client1 = new Discord.Client()
 const client2 = new Discord.Client()
@@ -40,6 +65,7 @@ const client37 = new Discord.Client()
 const client38 = new Discord.Client()
 const client39 = new Discord.Client()
 const client40 = new Discord.Client()
+////////اذا لقيت اي مشكلة في الكود اعرف لانه كتبت الكود ع الجوال
 var prefix1 = "1"
 var prefix2 = "2"
 var prefix3 = "3"
@@ -81,7 +107,11 @@ var prefix38 = "38"
 var prefix39 = "39"
 var prefix40 = "40"
 
-
+/////اذا لاحظت اي مشكلة في الكود  اعرف اني كتبت الكود ع الجوال
+////البريفيكس يلي فوق 
+//ما انصح تضيف اكثر من 50 بوت 
+//////كود المساعدة في حالة الاضافة 
+///// var prefix(x) = "(x)"
 
 client1.on("ready", async() => {console.log(` _ ${client1.user.username} _ 1 is Ready`)});
 client2.on("ready", async() => {console.log(` _ ${client2.user.username} _ 2 is Ready`)});
@@ -100,293 +130,323 @@ client14.on("ready", async() => {console.log(` _ ${client14.user.username} _ 14 
 client15.on("ready", async() => {console.log(` _ ${client15.user.username} _ 15 is Ready`)});
 client16.on("ready", async() => {console.log(` _ ${client16.user.username} _ 16 is Ready`)});
 client17.on("ready", async() => {console.log(` _ ${client17.user.username} _ 17is Ready`)});
-client18.on("ready", async() => {console.log(` _ ${client18.user.username} _ is Ready`)});
-client19.on("ready", async() => {console.log(` _ ${client19.user.username} _ is Ready`)});
-client20.on("ready", async() => {console.log(` _ ${client20.user.username} _ is Ready`)});
-client21.on("ready", async() => {console.log(` _ ${client21.user.username} _ is Ready`)});
-client22.on("ready", async() => {console.log(` _ ${client22.user.username} _ is Ready`)});
-client23.on("ready", async() => {console.log(` _ ${client23.user.username} _ is Ready`)});
-client24.on("ready", async() => {console.log(` _ ${client24.user.username} _ is Ready`)});
-client25.on("ready", async() => {console.log(` _ ${client25.user.username} _ is Ready`)});
-client26.on("ready", async() => {console.log(` _ ${client26.user.username} _ is Ready`)});
-client27.on("ready", async() => {console.log(` _ ${client27.user.username} _ is Ready`)});
-client28.on("ready", async() => {console.log(` _ ${client28.user.username} _ is Ready`)});
-client29.on("ready", async() => {console.log(` _ ${client29.user.username} _ is Ready`)});
-client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ is Ready`)});
+client18.on("ready", async() => {console.log(` _ ${client18.user.username} _ 18 is Ready`)});
+client19.on("ready", async() => {console.log(` _ ${client19.user.username} _ 19 is Ready`)});
+client20.on("ready", async() => {console.log(` _ ${client20.user.username} _ 20 is Ready`)});
+client21.on("ready", async() => {console.log(` _ ${client21.user.username} _ 21 is Ready`)});
+client22.on("ready", async() => {console.log(` _ ${client22.user.username} _ 22 is Ready`)});
+client23.on("ready", async() => {console.log(` _ ${client23.user.username} _ 23is Ready`)});
+client24.on("ready", async() => {console.log(` _ ${client24.user.username} _ 24is Ready`)});
+client25.on("ready", async() => {console.log(` _ ${client25.user.username} _ 25 is Ready`)});
+client26.on("ready", async() => {console.log(` _ ${client26.user.username} _ 26 is Ready`)});
+client27.on("ready", async() => {console.log(` _ ${client27.user.username} _ 27 is Ready`)});
+client28.on("ready", async() => {console.log(` _ ${client28.user.username} _ 28 is Ready`)});
+client29.on("ready", async() => {console.log(` _ ${client29.user.username} _ 29is Ready`)});
+client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ 30 is Ready`)});
+client31.on("ready", async() => {console.log(` _ ${client30.user.username} _ 31 is Ready`)});
+client32.on("ready", async() => {console.log(` _ ${client30.user.username} _ 32 is Ready`)});
+client33.on("ready", async() => {console.log(` _ ${client30.user.username} _ 33 is Ready`)});
+client34.on("ready", async() => {console.log(` _ ${client30.user.username} _ 34 is Ready`)});
+client35.on("ready", async() => {console.log(` _ ${client30.user.username} _ 35 is Ready`)});
+client36.on("ready", async() => {console.log(` _ ${client30.user.username} _ 36 is Ready`)});
+client37.on("ready", async() => {console.log(` _ ${client30.user.username} _ 37 is Ready`)});
+client38.on("ready", async() => {console.log(` _ ${client30.user.username} _ 38 is Ready`)});
+client39.on("ready", async() => {console.log(` _ ${client30.user.username} _ 39 is Ready`)});
+client40.on("ready", async() => {console.log(` _ ${client30.user.username} _ 40 is Ready`)});
+
+/////////بالنسبة ل ذا الشي يلي فوق ذا للوق حق الخادم ما بلزم كثير 
+//لكن في حال انك انتبهت انه في بوت خربان  ذا بفيدك 
+////تحب تضيف كمان ؟؟؟ 
+//بس زيد الرقم 
+///Client41.on لخخخ
+
+
+
+
+
+///////معلومة سريعة 
+////سرعة البوت تكون شغالة على الملي ثانية 
+////يعني اذا كان الرقم يلي مكتوب تحت الكود 2500 
+//هذا يعني انه البوت ببعت رسالة كل ثانيتين و نص 
+//انا بفضل انك ما تلعب بالسرعة
 
 client1.on("ready", () => {
-let channel =     client2.channels.get(process.env.CHANNEL)
+let channel =     client2.channels.get(process.env.CHANNEL1)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client2.on("ready", () => {
-let channel =     client2.channels.get(process.env.CHANNEL)
+let channel =     client2.channels.get(process.env.CHANNEL1)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client3.on("ready", () => {
-let channel =     client3.channels.get(process.env.CHANNEL)
+let channel =     client3.channels.get(process.env.CHANNEL1)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client4.on("ready", () => {
-let channel =     client4.channels.get(process.env.CHANNEL)
+let channel =     client4.channels.get(process.env.CHANNEL1)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client5.on("ready", () => {
-let channel =     client5.channels.get("process.env.CHANNEL)
+let channel =     client5.channels.get("process.env.CHANNEL1)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client6.on("ready", () => {
-let channel =     client6.channels.get(process.env.CHANNEL)
+let channel =     client6.channels.get(process.env.CHANNEL2)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client7.on("ready", () => {
-let channel =     client7.channels.get(process.env.CHANNEL)
+let channel =     client7.channels.get(process.env.CHANNEL2)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client8.on("ready", () => {
-let channel =     client8.channels.get(process.env.CHANNEL)
+let channel =     client8.channels.get(process.env.CHANNEL2)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client9.on("ready", () => {
-let channel =     client9.channels.get(process.env.CHANNEL)
+let channel =     client9.channels.get(process.env.CHANNEL2)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client10.on("ready", () => {
-let channel =     client10.channels.get(process.env.CHANNEL)
+let channel =     client10.channels.get(process.env.CHANNEL2)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client11.on("ready", () => {
-let channel =     client11.channels.get(process.env.CHANNEL)
+let channel =     client11.channels.get(process.env.CHANNEL3)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client12.on("ready", () => {
-let channel =     client12.channels.get(process.env.CHANNEL)
+let channel =     client12.channels.get(process.env.CHANNEL3)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client13.on("ready", () => {
-let channel =     client13.channels.get(process.env.CHANNEL)
+let channel =     client13.channels.get(process.env.CHANNEL3)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client14.on("ready", () => {
-let channel =     client14.channels.get(process.env.CHANNEL)
+let channel =     client14.channels.get(process.env.CHANNEL3)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client15.on("ready", () => {
-let channel =     client15.channels.get("process.env.CHANNEL)
+let channel =     client15.channels.get("process.env.CHANNEL3)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client16.on("ready", () => {
-let channel =     client16.channels.get(process.env.CHANNEL)
+let channel =     client16.channels.get(process.env.CHANNEL4)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client17.on("ready", () => {
-let channel =     client17.channels.get(process.env.CHANNEL)
+let channel =     client17.channels.get(process.env.CHANNEL4)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client18.on("ready", () => {
-let channel =     client18.channels.get("556388194015379468")
+let channel =     client18.channels.get(process.env.CHANNEL4)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client19.on("ready", () => {
-let channel =     client19.channels.get(process.env.CHANNEL)
+let channel =     client19.channels.get(process.env.CHANNEL4)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client20.on("ready", () => {
-let channel =     client20.channels.get(process.env.CHANNEL)
+let channel =     client20.channels.get(process.env.CHANNEL4)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client21.on("ready", () => {
-let channel =     client2.channels.get(process.env.CHANNEL)
+let channel =     client2.channels.get(process.env.CHANNEL5)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client22.on("ready", () => {
-let channel =     client22.channels.get(process.env.CHANNEL)
+let channel =     client22.channels.get(process.env.CHANNEL5)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client23.on("ready", () => {
-let channel =     client23.channels.get(process.env.CHANNEL)
+let channel =     client23.channels.get(process.env.CHANNEL5)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client24.on("ready", () => {
-let channel =     client24.channels.get(process.env.CHANNEL)
+let channel =     client24.channels.get(process.env.CHANNEL5)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client25.on("ready", () => {
-let channel =     client25.channels.get(process.env.CHANNEL)
+let channel =     client25.channels.get(process.env.CHANNEL5)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client26.on("ready", () => {
-let channel =     client26.channels.get(process.env.CHANNEL)
+let channel =     client26.channels.get(process.env.CHANNEL6)
 setInterval(function() {
 channel.send(`#free_PS`);
-}, 25)
+}, 2500)
 });
 client27.on("ready", () => {
-let channel =     client27.channels.get(process.env.CHANNEL)
+let channel =     client27.channels.get(process.env.CHANNEL6)
 setInterval(function() {
 channel.send(`YES YES`);
-}, 25)
+}, 2500)
 });
 client28.on("ready", () => {
-let channel =     client28.channels.get(process.env.CHANNEL)
+let channel =     client28.channels.get(process.env.CHANNEL6)
 setInterval(function() {
 channel.send(`Im With You Bro!`);
-}, 25)
+}, 2500)
 });
 client29.on("ready", () => {
-let channel =     client29.channels.get(process.env.CHANNEL)
+let channel =     client29.channels.get(process.env.CHANNEL6)
 setInterval(function() {
 channel.send(`god bless you`);
-}, 25)
+}, 2500)
 });
 client30.on("ready", () => {
-let channel =     client30.channels.get(process.env.CHANNEL)
+let channel =     client30.channels.get(process.env.CHANNEL6)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
 client31.on("ready", () => {
-let channel =     client31.channels.get(process.env.CHANNEL)
+let channel =     client31.channels.get(process.env.CHANNEL7)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 client32.on("ready", () => {
-let channel =     client32.channels.get(process.env.CHANNEL)
+let channel =     client32.channels.get(process.env.CHANNEL7)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
-client32.on("ready", () => {
-let channel =     client32.channels.get(process.env.CHANNEL)
-setInterval(function() {
-channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
-});
+
 client33.on("ready", () => {
-let channel =     client33.channels.get(process.env.CHANNEL)
+let channel =     client33.channels.get(process.env.CHANNEL7)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 client34.on("ready", () => {
-let channel =     client34.channels.get(process.env.CHANNEL)
+let channel =     client34.channels.get(process.env.CHANNEL7)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 client35.on("ready", () => {
-let channel =     client35.channels.get(process.env.CHANNEL)
+let channel =     client35.channels.get(process.env.CHANNEL7)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 client36.on("ready", () => {
-let channel =     client36.channels.get(process.env.CHANNEL)
+let channel =     client36.channels.get(process.env.CHANNEL8)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 client37.on("ready", () => {
-let channel =     client37.channels.get(process.env.CHANNEL)
+let channel =     client37.channels.get(process.env.CHANNEL8)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 client38.on("ready", () => {
-let channel =     client38.channels.get(process.env.CHANNEL)
+let channel =     client38.channels.get(process.env.CHANNEL8)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 client39.on("ready", () => {
-let channel =     client39.channels.get(process.env.CHANNEL)
+let channel =     client39.channels.get(process.env.CHANNEL8)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 client40.on("ready", () => {
-let channel =     client40.channels.get(process.env.CHANNEL)
+let channel =     client40.channels.get(process.env.CHANNEL8)
 setInterval(function() {
 channel.send(`Starspam bot working to get dolors just to help star so send your love to star`);
-}, 25)
+}, 2500)
 });
 
+//////الحين احتمال تسئلني سؤال 
+/// يا ستار ليش ما عملت البوت غير الرسالة عشان ما يكرر الرسالة؟
+////بقولك كم سببب 
+//1 الخادم ما يستحمل 
+//2 Discord TOS ما بمنع انك تكرر رسالتك
+//3 Discord API ما راح يوقفك اذا كررت رسالتك لكن اذا السرعة بتزيد راح يوقفك
+//جرب اعمل سبام و شوف كيف راح يمنعك 
+//التكرار بعلم الحمار عند العرب بس عند الديسكورد  اذا تجيك نفس العقوبةاكثر من مره يتبند حسابك
+///اسئل محرب تبندت 18 مره
 
 
 
@@ -417,8 +477,8 @@ channel.send(`Starspam bot working to get dolors just to help star so send your 
 
 
 
-
-
+//اكتب d 
+//و جميع البوتات تعمل امر الديلي في نفس الوقت 
 
 
 client1.on("message", message => {
@@ -660,34 +720,41 @@ client40.on("message", message => {
 
 
 
-
+///////كود الكرديت 
+////اذا تحب تفحص كم كرديت في معك في البوتات 
+////اكتب البريفكس بعدها c
+///الحين انا عملتلك حركة حلوة قسمتلك البوتات ل 8 خانات
+///كل 5 بوتات في خانة 
+//////لفحص الكريديت يلي في كل خانة 
+////اكتب 
+//// 1c 2c 3c 4c 5c 6c 7c 8c 
 
 
 
 
 
 client1.on("message", message => {
-    if(message.content === `${prefixa1}c`) {
+    if(message.content === `${prefix1}c`) {
         message.channel.send(`#credits`)
     }
 });
 client2.on("message", message => {
-    if(message.content === `${prefixa1}c`) {
+    if(message.content === `${prefix1}c`) {
         message.channel.send(`#credits`)
     }
 });
 client3.on("message", message => {
-    if(message.content === `${prefixa1}c`) {
+    if(message.content === `${prefix1}c`) {
         message.channel.send(`#credits`)
     }
 });
 client4.on("message", message => {
-    if(message.content === `${prefixa1}c`) {
+    if(message.content === `${prefix1}c`) {
         message.channel.send(`#credits`)
     }
 });
 client5.on("message", message => {
-    if(message.content === `${prefixa1}c`) {
+    if(message.content === `${prefix1}c`) {
         message.channel.send(`#credits`)
     }
 });
@@ -696,27 +763,27 @@ client5.on("message", message => {
 
 
 client6.on("message", message => {
-    if(message.content === `${prefixa2}c`) {
+    if(message.content === `${prefix2}c`) {
         message.channel.send(`#credits`)
     }
 });
 client7.on("message", message => {
-    if(message.content === `${prefixa2}c`) {
+    if(message.content === `${prefix2}c`) {
         message.channel.send(`#credits`)
     }
 });
 client8.on("message", message => {
-    if(message.content === `${prefixa2}c`) {
+    if(message.content === `${prefix2}c`) {
         message.channel.send(`#credits`)
     }
 });
 client9.on("message", message => {
-    if(message.content === `${prefixa2}c`) {
+    if(message.content === `${prefix2}c`) {
         message.channel.send(`#credits`)
     }
 });
 client10.on("message", message => {
-    if(message.content === `${prefixa2}c`) {
+    if(message.content === `${prefix2}c`) {
         message.channel.send(`#credits`)
     }
 });
@@ -725,27 +792,27 @@ client10.on("message", message => {
 
 
 client11.on("message", message => {
-    if(message.content === `${prefixa3}c`) {
+    if(message.content === `${prefix3}c`) {
         message.channel.send(`#credits`)
     }
 });
 client12.on("message", message => {
-    if(message.content === `${prefixa3}c`) {
+    if(message.content === `${prefix3}c`) {
         message.channel.send(`#credits`)
     }
 });
 client13.on("message", message => {
-    if(message.content === `${prefixa3}c`) {
+    if(message.content === `${prefix3}c`) {
         message.channel.send(`#credits`)
     }
 });
 client14.on("message", message => {
-    if(message.content === `${prefixa3}c`) {
+    if(message.content === `${prefix3}c`) {
         message.channel.send(`#credits`)
     }
 });
 client15.on("message", message => {
-    if(message.content === `${prefixa3}c`) {
+    if(message.content === `${prefix3}c`) {
         message.channel.send(`#credits`)
     }
 });
@@ -754,27 +821,27 @@ client15.on("message", message => {
 
 
 client16.on("message", message => {
-    if(message.content === `${prefixa4}c`) {
+    if(message.content === `${prefix4}c`) {
         message.channel.send(`#credits`)
     }
 });
 client17.on("message", message => {
-    if(message.content === `${prefixa4}c`) {
+    if(message.content === `${prefix4}c`) {
         message.channel.send(`#credits`)
     }
 });
 client18.on("message", message => {
-    if(message.content === `${prefixa4}c`) {
+    if(message.content === `${prefix4}c`) {
         message.channel.send(`#credits`)
     }
 });
 client19.on("message", message => {
-    if(message.content === `${prefixa4}c`) {
+    if(message.content === `${prefix4}c`) {
         message.channel.send(`#credits`)
     }
 });
 client20.on("message", message => {
-    if(message.content === `${prefixa4}c`) {
+    if(message.content === `${prefix4}c`) {
         message.channel.send(`#credits`)
     }
 });
@@ -783,27 +850,27 @@ client20.on("message", message => {
 
 
 client21.on("message", message => {
-    if(message.content === `${prefixa5}c`) {
+    if(message.content === `${prefix5}c`) {
         message.channel.send(`#credits`)
     }
 });
 client22.on("message", message => {
-    if(message.content === `${prefixa5}c`) {
+    if(message.content === `${prefix5}c`) {
         message.channel.send(`#credits`)
     }
 });
 client23.on("message", message => {
-    if(message.content === `${prefixa5}c`) {
+    if(message.content === `${prefix5}c`) {
         message.channel.send(`#credits`)
     }
 });
 client24.on("message", message => {
-    if(message.content === `${prefixa5}c`) {
+    if(message.content === `${prefix5}c`) {
         message.channel.send(`#credits`)
     }
 });
 client25.on("message", message => {
-    if(message.content === `${prefixa5}c`) {
+    if(message.content === `${prefix5}c`) {
         message.channel.send(`#credits`)
     }
 });
@@ -812,27 +879,27 @@ client25.on("message", message => {
 
 
 client26.on("message", message => {
-    if(message.content === `${prefixa6}c`) {
+    if(message.content === `${prefix6}c`) {
         message.channel.send(`#credits`)
     }
 });
 client27.on("message", message => {
-    if(message.content === `${prefixa6}c`) {
+    if(message.content === `${prefix6}c`) {
         message.channel.send(`#credits`)
     }
 });
 client28.on("message", message => {
-    if(message.content === `${prefixa6}c`) {
+    if(message.content === `${prefix6}c`) {
         message.channel.send(`#credits`)
     }
 });
 client29.on("message", message => {
-    if(message.content === `${prefixa6}c`) {
+    if(message.content === `${prefix6}c`) {
         message.channel.send(`#credits`)
     }
 });
 client30.on("message", message => {
-    if(message.content === `${prefixa6}c`) {
+    if(message.content === `${prefix6}c`) {
         message.channel.send(`#credits`)
     }
 }); 
@@ -887,14 +954,26 @@ client40.on("message", message => {
     }
 });
 
+/////في حال انك حبيت تضيف كمان بوتات بس زيد رقم 
+///مثلا!
+////client41.on("message", message => {
+////     if(message.content === `${prefix9}c`) {
+////        message.channel.send(`#credits`)
+////    }
+////});
+///انا بنصح انك تخلي كل 5 بوتات في خانة
 
 
 
 
-
-
-
-
+////////كود say
+//ذا الكود حرفيا بغنيك عن جميع الاكواد يلي فوق
+///الاستعمل
+///بريفكس بعدين say 
+///1say شخبط شخبيط 
+//البوت رقم واحد بكتبلك شخبط شخبيط
+// ذا الكود عشان ترسل كرديت لشخص لانو كل مره ترسل فيها كرديت البوت يعطيك ارقام مختلفة
+// لهيك كل بوت لازم يتشغل لحاله
 
 client1.on("message", message => {
     if (!message.content.startsWith(prefix1)) return;
@@ -1257,8 +1336,629 @@ client30.on("message", message => {
   }
 });
 
+client31.on("message", message => {
+    if (!message.content.startsWith(prefix31)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client32.on("message", message => {
+    if (!message.content.startsWith(prefix32)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client33.on("message", message => {
+    if (!message.content.startsWith(prefix33)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client34.on("message", message => {
+    if (!message.content.startsWith(prefix34)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client35.on("message", message => {
+    if (!message.content.startsWith(prefix35)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client36.on("message", message => {
+    if (!message.content.startsWith(prefix36)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client37.on("message", message => {
+    if (!message.content.startsWith(prefix37)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client38.on("message", message => {
+    if (!message.content.startsWith(prefix38)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client39.on("message", message => {
+    if (!message.content.startsWith(prefix39)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client40.on("message", message => {
+    if (!message.content.startsWith(prefix40)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
 
 
+
+
+
+
+
+
+
+
+
+
+///////ذا الكود بحب ادلعه المدرسة
+//عشان يوم الاستاذ يقول(سعيد ضرب محمد) كل يلي في الصف بعيدو نفس الكلام
+// الكود هو كود بسمحلك تتحكم في ايش جميع البوتات بحكو في رسالة وحدة 
+///يعني مثلا بدك البوتات يعملو ريب
+//اكتب
+///asay #rep @user
+//كل البوات يعملو للشخص ريب
+
+
+
+client1.on("message", message => {
+    if (!message.content.startsWith(prefix1)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix1.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client2.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix2.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client3.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix3.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client4.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix4.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client5.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix5.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client6.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix6.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client7.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix7.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client8.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix8.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client9.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix9.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client10.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix10.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client11.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix11.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client12.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix12.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client13.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix13.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client14.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix14.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client15.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix15.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client16.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix16.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client17.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix17.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client18.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix18.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client19.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix19.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client20.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix20.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client21.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix21.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client22.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix22.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client23.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix23.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client24.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix24.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client25.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix25.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client26.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix26.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client27.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix27.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client28.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix28.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client29.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix29.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client30.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+
+client31.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client32.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client33.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client34.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client35.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client36.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client37.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client38.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client39.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client40.on("message", message => {
+    if (!message.content.startsWith(a)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix30.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
 
 
 
@@ -1294,3 +1994,13 @@ client27.login(process.env.BOT_TOKEN27)
 client28.login(process.env.BOT_TOKEN28)
 client29.login(process.env.BOT_TOKEN29)
 client30.login(process.env.BOT_TOKEN30)
+client31.login(process.env.BOT_TOKEN31)
+client32.login(process.env.BOT_TOKEN32)
+client33.login(process.env.BOT_TOKEN33)
+client34.login(process.env.BOT_TOKEN34)
+client35.login(process.env.BOT_TOKEN35)
+client36.login(process.env.BOT_TOKEN36)
+client37.login(process.env.BOT_TOKEN33)
+client38.login(process.env.BOT_TOKEN38)
+client39.login(process.env.BOT_TOKEN39)
+client48.login(process.env.BOT_TOKEN40)
